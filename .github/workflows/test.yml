@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-kernel:
+  run-test:
     runs-on: ubuntu-20.04
     steps:
       - uses: manjaro-kernels/kernel-action@exp
